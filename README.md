@@ -21,7 +21,7 @@ brew install uv
 #### 2. リポジトリをクローン
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/temperature-finance-analysis.git
+git clone https://github.com/Michikoo29avril/temperature-finance-analysis.git
 cd temperature-finance-analysis
 ```
 
@@ -122,7 +122,7 @@ uv update pandas
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/YOUR_USERNAME/temperature-finance-analysis.git
+git clone https://github.com/Michikoo29avril/temperature-finance-analysis.git
 cd temperature-finance-analysis
 
 # uv.lock から完全に同じ環境を再構築
