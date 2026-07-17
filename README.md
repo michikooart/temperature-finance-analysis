@@ -41,7 +41,9 @@ uv sync
 
 ## 注意事項：Notebook の表示について
 
-GitHub 上で表示した Notebook の目次リンクは動作しません。これは GitHub の制限によるものです。
+temperature_cpi_1970.ipynb という　Notebook　を　GitHub　上で表示するだけでも内容を確認することはできます。
+
+しかし　Notebook の目次リンクは動作しません。これは GitHub の制限によるものです。
 
 完全な機能を利用するには、ローカルで Jupyter を実行してください：
 
