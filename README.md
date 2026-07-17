@@ -36,17 +36,23 @@ uv sync
 - Python 3.11 仮想環境の作成
 - `pyproject.toml` の依存パッケージをインストール
 
-#### 4. 仮想環境を有効化
+
+---
+
+## 注意事項：Notebook の表示について
+
+GitHub 上で表示した Notebook の目次リンクは動作しません。これは GitHub の制限によるものです。
+
+完全な機能を利用するには、ローカルで Jupyter を実行してください：
 
 ```bash
-# uv run を使う場合（推奨）
 uv run jupyter notebook temperature_cpi_1970.ipynb
-
-# または手動で有効化
-source .venv/bin/activate  # macOS/Linux
-# または
-.venv\Scripts\activate  # Windows
 ```
+
+---
+
+
+
 
 ### Jupyter Notebook を実行
 
