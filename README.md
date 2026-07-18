@@ -21,7 +21,7 @@ brew install uv
 #### 2. リポジトリをクローン
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/temperature-finance-analysis.git
+git clone https://github.com/Michikoo29avril/temperature-finance-analysis.git
 cd temperature-finance-analysis
 ```
 
@@ -36,17 +36,25 @@ uv sync
 - Python 3.11 仮想環境の作成
 - `pyproject.toml` の依存パッケージをインストール
 
-#### 4. 仮想環境を有効化
+
+---
+
+## 注意事項：Notebook の表示について
+
+temperature_cpi_1970.ipynb という　Notebook　を　GitHub　上で表示するだけでも内容を確認することはできます。
+
+しかし　Notebook の目次リンクは動作しません。これは GitHub の制限によるものです。
+
+完全な機能を利用するには、ローカルで Jupyter を実行してください：
 
 ```bash
-# uv run を使う場合（推奨）
 uv run jupyter notebook temperature_cpi_1970.ipynb
-
-# または手動で有効化
-source .venv/bin/activate  # macOS/Linux
-# または
-.venv\Scripts\activate  # Windows
 ```
+
+---
+
+
+
 
 ### Jupyter Notebook を実行
 
@@ -122,7 +130,7 @@ uv update pandas
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/YOUR_USERNAME/temperature-finance-analysis.git
+git clone https://github.com/Michikoo29avril/temperature-finance-analysis.git
 cd temperature-finance-analysis
 
 # uv.lock から完全に同じ環境を再構築
