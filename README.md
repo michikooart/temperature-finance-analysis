@@ -1,3 +1,10 @@
+## 実ファイルの場所
+
+このプロジェクトの詳細な分析は、以下の Jupyter Notebook に記載されています：
+
+**[temperature_cpi_1970.ipynb](temperature_cpi_1970.ipynb)** ← クリックして開く
+
+
 ## 実行方法
 
 ### 前提条件
@@ -41,18 +48,24 @@ uv sync
 
 ## 注意事項：Notebook の表示について
 
-temperature_cpi_1970.ipynb という　Notebook　を　GitHub　上で表示するだけでも内容を確認することはできます。
+temperature_cpi_1970.ipynb という Notebook を GitHub 上で表示するだけでも内容を確認することはできます。
 
-しかし　Notebook の目次リンクは動作しません。これは GitHub の制限によるものです。
+しかし Notebook の目次リンクは動作しません。これは GitHub の制限によるものです。
 
-完全な機能を利用するには、ローカルで Jupyter を実行してください：
+完全な機能を利用するには、ローカルで Jupyter Lab を実行してください：
 
 ```bash
-uv run jupyter notebook temperature_cpi_1970.ipynb
+uv run jupyter lab temperature_cpi_1970.ipynb
 ```
 
----
+Jupyter Lab の左サイドバーにある **「Table of Contents」アイコン** をクリックすると、
+各セクションの一覧が表示され、クリックで移動できます。
 
+
+
+
+
+---
 
 
 
